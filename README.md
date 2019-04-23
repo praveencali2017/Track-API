@@ -3,6 +3,7 @@
 2. Use app_config.json (To print debug statements use mode=Debug and port={port-number})
 3. Please follow the endpoints given below:
     * GET -  http://localhost:port/tracks (To fetch all Tracks)
+    * GET -  http://localhost:port/tracks/query/"string" (search for composer or track)
     * GET -  http://localhost:port/tracks/{TrackId} (To fetch corresponding Track)
     
     * PUT -  http://127.0.0.1:8080/tracks

@@ -89,7 +89,7 @@ class Track_Name_Composer(Resource):
 
 ### Resource Mapping to the endpoints
 track_api.add_resource(Track,'/tracks/<track_id>/',"/tracks")
-track_api.add_resource(Track_Name_Composer,'/tracks/<name_composer>')
+track_api.add_resource(Track_Name_Composer,'/tracks/query/<name_composer>')
 
 ### App Main Block
 if __name__=='__main__':
