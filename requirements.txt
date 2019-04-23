@@ -1,3 +1,4 @@
 Flask_RESTful==0.3.6
 Flask==1.0.2
 SQLAlchemy==1.2.12
+gunicorn==19.9.0
